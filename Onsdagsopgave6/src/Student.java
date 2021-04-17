@@ -19,6 +19,14 @@ public class Student {
         return "Student" +
                 "\nName= "+ name +
                 "\nGraduateYear= " + graduateYear +
-                "\nGrades= " + Arrays.toString(grades) + "\n\n";
+                "\nGrades= " + Arrays.toString(grades);
     }
+
+    public void averageGrade(){
+
+        int sum = (grades[0] + grades[1] +grades[2] + grades[3] +grades[4] + grades[5] + grades[6]) / 7;
+        System.out.println("Average grade is: " + sum + "\n");
+    }
+
+
 }
