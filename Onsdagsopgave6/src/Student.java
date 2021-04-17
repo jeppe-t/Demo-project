@@ -16,9 +16,9 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student\n" +
-                "Name= \n"+ name +
-                "GraduateYear= \n" + graduateYear +
-                "Grades= \n" + Arrays.toString(grades);
+        return "Student" +
+                "\nName= "+ name +
+                "\nGraduateYear= " + graduateYear +
+                "\nGrades= " + Arrays.toString(grades) + "\n\n";
     }
 }
