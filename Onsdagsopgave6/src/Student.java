@@ -22,10 +22,11 @@ public class Student {
                 "\nGrades= " + Arrays.toString(grades);
     }
 
-    public void averageGrade(){
+    public int averageGrade(){
 
         int sum = (grades[0] + grades[1] +grades[2] + grades[3] +grades[4] + grades[5] + grades[6]) / 7;
         System.out.println("Average grade is: " + sum + "\n");
+        return sum;
     }
 
 
