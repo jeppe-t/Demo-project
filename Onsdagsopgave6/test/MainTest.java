@@ -9,11 +9,11 @@ class MainTest {
 
         //Arrange
 
-        Student student3 = new Student("Magnus" ,2024, new int[] {4, 0, 0, 10, 7, 0, 7});
-        int expected = 4;
+        Student student3 = new Student("Magnus" ,2024, new double[] {4, 0, 0, 10, 7, 0, 7});
+        double expected = 4;
 
         //Act
-        int actual = student3.averageGrade();
+        double actual = student3.averageGrade();
 
         //Assert
 

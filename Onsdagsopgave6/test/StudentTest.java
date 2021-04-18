@@ -6,7 +6,13 @@ class StudentTest {
 
     @Test
     void averageGrade() {
-        Student student = new Student("John",2000,new int[] {4,7,10,12,2,7,10});
-        assertEquals(7,student.averageGrade());
+        //Arrange
+        Student student = new Student("John",2000,new double[] {4,7,10,12,2,7,10});
+        double expected = 8.1;
+        //Act
+        double actual = student.averageGrade();
+        //Assert
+
+        assertEquals(expected,actual);
     }
 }
