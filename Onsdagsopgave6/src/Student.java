@@ -7,7 +7,7 @@ public class Student {
     private int [] grades;
 
     public Student(String name, int graduateYear, int grades [] ){
-//test comment
+
         this.name = name;
         this.graduateYear = graduateYear;
         this.grades = grades;
