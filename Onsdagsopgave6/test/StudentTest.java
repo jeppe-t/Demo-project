@@ -8,7 +8,7 @@ class StudentTest {
     void averageGrade() {
         //Arrange
         Student student = new Student("John",2000,new double[] {4,7,10,12,2,7,10});
-        double expected = 8.1;
+        double expected = 8.13;
         //Act
         double actual = student.averageGrade();
         //Assert
