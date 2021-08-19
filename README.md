@@ -1,1 +1,1 @@
-# OnsdagsPakke6Github
+# Demo project
